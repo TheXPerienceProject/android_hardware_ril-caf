@@ -25,6 +25,7 @@ ifeq ($(SIM_COUNT), 2)
 endif
 
 LOCAL_MODULE_RELATIVE_PATH := hw
+LOCAL_PROPRIETARY_MODULE := true
 LOCAL_MODULE:= rild
 LOCAL_INIT_RC := rild.rc
 
